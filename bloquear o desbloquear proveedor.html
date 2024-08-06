@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="upp.css">
+    <title>proveedores</title>
+</head>
+<body>
+    <header class="header">
+        <img src="imagen/imag.jpg" alt=".">
+        <span><h2>pintuvalle</h2></span>
+    </header>
+
+    
+    <main class="main">
+        <section class="section">
+            <a href="usuario.html">Usuarios</a><br><br>
+            <a href="producto.html">Productos</a><br><br>
+            <a href="#">Proveedores</a>
+        </section>
+        <aside class="aside">
+            <nav class="navegacion">
+                
+                <a href="proveedores.html">Registrar proveedores</a>
+                <a href="modificar proveedor.html">Modificar proveedores</a>
+                <a href="consultar proveedor.html">Consultar proveedores</a>
+                <a href="bloquear o desbloquear proveedor.html"
+                  >Bloquear o desbloquear proveedores</a>
+                
+            </nav>
+           <div class="content">
+           <div id="contenido"> 
+            <fieldset>
+                <h2>BLOQUEAR O DESBLOQUEAR PROVEEDORES</h2>
+                <form method="post" action="">
+                    <label for="id">ID del proveedor:</label><br>
+                    <input type="text" id="id" name="id"><br><br>
+                    <input type="radio" id="bloquear" name="accion" value="bloquear" checked>
+                    <label for="bloquear">Bloquear proveedor</label><br>
+                    <input type="radio" id="desbloquear" name="accion" value="desbloquear">
+                    <label for="desbloquear">Desbloquear proveedor</label><br><br>
+                    <input type="submit" value="Actualizar Estado">
+            </fieldset>
+           </div>
+        </div>
+        </aside>
+    </main>
+    <footer class="footer">
+        © 2024 Pintuvalle - Todos los derechos reservados.
+    </footer>
+    
+</body>
+</html>
