@@ -9,5 +9,5 @@ public interface productosinf {
     public list<productos> findAll();
     public  Optional<productos> findByID(Integer id);
     public  productos save(productos producto);
-    public void delete(Integer id);
+    public void delete(Integer id); 
 }

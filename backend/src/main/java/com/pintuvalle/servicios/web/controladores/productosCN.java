@@ -10,7 +10,7 @@ public class productosCN {
    private productosinf servicio;
 
    @Crossorigin(origins = "*")
-    @PostMapping
+    @GetMapping
     public ResponseEntity<?> listarproductos(){
         return ResponseEntity.ok(servicio.findAll());
     }

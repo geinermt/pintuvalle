@@ -20,7 +20,7 @@ public class productos {
     @NonNull
     private String nombre;
 
-    @Column(name = "tipopintura", nullable = false, length = 100)
+    @Column(name = "tipopintura", nullable = false, length = 11)
     @NonNull
     private int tipopintura;
 
