@@ -45,7 +45,6 @@ public class productosCN {
         servicio.delete(id);
          return ResponseEntity.ok(producto);
       }
-      return ResponseEntity.notFound().build();
+       return ResponseEntity.notFound().build();
+    }
 }
-
-
