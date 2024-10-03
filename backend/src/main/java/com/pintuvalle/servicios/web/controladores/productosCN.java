@@ -1,5 +1,6 @@
 package com.pintuvalle.servicios.web.controladores;
 
+import com.pintuvalle.servicios.web.entidades.productos;
 import com.pintuvalle.servicios.web.servicios.interfaz.productosinf;
 
 @Restcontroller
